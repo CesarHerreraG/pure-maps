@@ -142,7 +142,7 @@ msgstr "Salida: "
 
 #: poor/narrative.py:618 qml/pure-maps.qml:274
 msgid "New route found"
-msgstr "Nueva ruta encontrada"
+msgstr "Se ha encontrado una nueva ruta"
 
 #: poor/narrative.py:619 qml/pure-maps.qml:258
 msgid "Rerouting"
@@ -279,7 +279,7 @@ msgstr "tranvía"
 
 #: routers/digitransit.py:65
 msgid "walk"
-msgstr "caminar"
+msgstr "caminando"
 
 #: routers/digitransit.py:69
 #, python-brace-format
@@ -354,7 +354,7 @@ msgstr "Mejor"
 
 #: guides/osmscout_name.qml:27
 msgid "Venue name"
-msgstr "Nombre de lugar"
+msgstr "El nombre del lugar es"
 
 #: guides/osmscout_name.qml:48 qml/GeocodeItem.qml:134
 #: qml/PlaceTypePage.qml:46 qml/PoiPage.qml:108 qml/RoutePage.qml:202
@@ -367,7 +367,7 @@ msgstr "Borrar"
 #: qml/NearbyPage.qml:28 qml/PlaceTypePage.qml:80 qml/PoiPage.qml:136
 #: qml/PreferencesPage.qml:504
 msgid "Search"
-msgstr "Buscar"
+msgstr "Buscando"
 
 #: guides/osmscout_name.qml:81
 msgid "You can search for venues by name."
@@ -391,7 +391,7 @@ msgstr ""
 
 #: guides/osmscout_settings.qml:76
 msgid "Search starting from the reference point"
-msgstr "Iniciar búsqueda desde punto de referencia"
+msgstr "Iniciar búsqueda desde el punto de referencia"
 
 #: qml/AboutPage.qml:25 qml/MenuPage.qml:33
 msgid "About Pure Maps"
@@ -473,7 +473,7 @@ msgstr "Tipo"
 #: qml/BasemapButton.qml:221 routers/digitransit_settings.qml:146
 #: qml/js/util.js:230
 msgid "Default"
-msgstr "Defecto"
+msgstr Por defecto"
 
 #: qml/BasemapButton.qml:222
 msgid "Guidance"
@@ -533,15 +533,15 @@ msgstr "A pie"
 
 #: qml/BasemapButton.qml:295 routers/ValhallaSettings.qml:38
 msgid "Public transport"
-msgstr "T. Público"
+msgstr "Transporte Público"
 
 #: qml/BasemapButton.qml:357 qml/RoutePage.qml:407
 msgid "Map scale"
-msgstr "Escala del mapa"
+msgstr "Escala del mapa "
 
 #: qml/BasemapButton.qml:374
 msgid "Map scale during navigation"
-msgstr "Escala del mapa durante la navegación"
+msgstr "Escala del mapa durante la navegación "
 
 #: qml/BasemapPage.qml:42
 msgid "Map: %1"
@@ -654,14 +654,17 @@ msgstr "Error"
 
 #: qml/MapErrorPage.qml:34
 msgid "Error occurred while loading current map."
-msgstr "Ocurrió un error al cargar mapa actual."
+msgstr "Ocurrió un error al cargar el mapa."
 
 #: qml/MapErrorPage.qml:40
 msgid ""
 "Depending on the used map provider, error could be caused by network failure, expired API access key, absence of offline server. Try to address the issue and/or change your map provider, preferences, or profile.\n"
 "If you change API access key, you may have to restart Pure Maps."
 msgstr ""
-"Dependiendo del proveedor de mapa usado, el error podría deberse a un fallo de conexión, a que la clave API de acceso ha caducado, a la ausencia del servidor sin conexión. Intenta solucionar el problema y/o cambia tu proveedor de mapas, preferencias o perfil.\n"
+"Dependiendo del proveedor de mapa usado, el error podría deberse"
+"a un fallo de conexión, a que la clave API de acceso ha caducado, a la ausencia"
+"del servidor sin conexión. Intenta solucionar el problema y/o cambia"
+"tu proveedor de mapas, preferencias o perfil.\n"
 "Si cambias la clave API de acceso debes reiniciar Pure Maps."
 
 #: qml/MapErrorPage.qml:50
@@ -694,7 +697,7 @@ msgstr "Mixto"
 
 #: qml/Map.qml:504
 msgid "Voice navigation on"
-msgstr "Navegación por voz activado"
+msgstr "Navegación por voz activada"
 
 #: qml/Map.qml:507
 msgid ""
@@ -722,7 +725,7 @@ msgstr "Compartir posición actual"
 
 #: qml/MenuPage.qml:79
 msgid "Share current position (not ready)"
-msgstr "Compartir posición actual (no está listo)"
+msgstr "No está lista la compartición de la posición actual (no está listo)"
 
 #: qml/MenuPage.qml:86
 msgid "Share Current Position"
@@ -731,11 +734,11 @@ msgstr "Compartir posición actual"
 #: qml/Meters.qml:85 qml/Meters.qml:95 qml/NavigationInfoBlock.qml:83
 #: qml/NavigationInfoBlock.qml:85
 msgid "mph"
-msgstr "mph"
+msgstr "millas por hora"
 
 #: qml/Meters.qml:105 qml/NavigationInfoBlock.qml:87
 msgid "km/h"
-msgstr "km/h"
+msgstr "kilómetros por hora"
 
 #: qml/NarrativeItem.qml:117
 msgid "Continue for %1."
@@ -747,7 +750,7 @@ msgstr "Indicaciones"
 
 #: qml/NavigationBlock.qml:102
 msgid "Processing route"
-msgstr "Procesando ruta"
+msgstr "Procesando la ruta"
 
 #: qml/NavigationBlock.qml:104
 msgid "Tap to review maneuvers or begin navigating"
@@ -921,23 +924,23 @@ msgstr "Número de teléfono"
 
 #: qml/PoiEditPage.qml:99
 msgid "Enter phone number"
-msgstr "Introduce número de teléfono"
+msgstr "Introduce el número de teléfono"
 
 #: qml/PoiEditPage.qml:106
 msgid "URL"
-msgstr "URL"
+msgstr "U R L"
 
 #: qml/PoiEditPage.qml:107
 msgid "Enter URL"
-msgstr "Introduce URL"
+msgstr "Introduce U R L"
 
 #: qml/PoiEditPage.qml:117 qml/PoiInfoPage.qml:242
 msgid "Additional info"
-msgstr "Info adicional"
+msgstr "Información adicional"
 
 #: qml/PoiEditPage.qml:123
 msgid "Enter additional info"
-msgstr "Introduce info adicional"
+msgstr "Introduce información adicional"
 
 #: qml/PoiInfoPage.qml:32 qml/PoiPage.qml:95
 msgid "Edit"
@@ -1005,7 +1008,7 @@ msgstr ""
 
 #: qml/Poi.qml:193 qml/pure-maps.qml:143
 msgid "Clearing map"
-msgstr "Limpiando mapa"
+msgstr "Limpiando el mapa"
 
 #: qml/PreferencesPage.qml:46
 msgid "Units"
@@ -1212,12 +1215,12 @@ msgid ""
 "current task. For example, show map designed for navigation while routing."
 msgstr ""
 "Cambia automáticamente entre los tipos de mapas del proveedor según la tarea"
-" actual. Por ejemplo, durante la ruta muestra el mapa diseñado para la "
+" actual. Por ejemplo, durante la ruta muestra el mapa diseñado para la"
 "navegación."
 
 #: qml/PreferencesPage.qml:175
 msgid "Switch map modes"
-msgstr "Cambiar modos de mapa"
+msgstr "Cambiar los modos de mapa"
 
 #: qml/PreferencesPage.qml:184
 msgid ""
@@ -1238,7 +1241,7 @@ msgstr "Nunca"
 
 #: qml/PreferencesPage.qml:186
 msgid "When navigating"
-msgstr "En la navegación"
+msgstr "Navegando"
 
 #: qml/PreferencesPage.qml:186 qml/PreferencesPage.qml:647
 msgid "Always"
@@ -1275,7 +1278,7 @@ msgstr "Borrar historial"
 
 #: qml/PreferencesPage.qml:250
 msgid "Clear map tiles stored in a cache"
-msgstr "Borrar teselas almacenadas en caché"
+msgstr "Borrar las teselas almacenadas en caché"
 
 #: qml/PreferencesPage.qml:258
 msgid "Clear cache"
@@ -1283,7 +1286,7 @@ msgstr "Borrar caché"
 
 #: qml/PreferencesPage.qml:270
 msgid "API keys"
-msgstr "Claves API"
+msgstr "Claves A P I"
 
 #: qml/PreferencesPage.qml:276
 msgid ""
@@ -1351,7 +1354,7 @@ msgstr ""
 
 #: qml/PreferencesPage.qml:378
 msgid "Time range, s"
-msgstr "Rango de tiempo, s"
+msgstr "Rango de tiempo, segundos"
 
 #: qml/PreferencesPage.qml:396
 msgid "Controls"
@@ -1505,7 +1508,7 @@ msgstr "Femenino"
 
 #: qml/PreferencesPage.qml:644
 msgid "Show speed limit sign"
-msgstr "Mostrar señal de límite de velocidad"
+msgstr "Mostrar la señal de límite de velocidad"
 
 #: qml/PreferencesPage.qml:646
 msgid "Speed limit"
@@ -1525,7 +1528,7 @@ msgid ""
 " navigation, preferred gender, and press the button below for testing."
 msgstr ""
 "Comprobación del motor de conversión texto-voz (TTS). Selecciona el mismo "
-"idioma que el usado para navegar, género preferido, y presiona el botón de "
+"idioma usado para navegar, género preferido, y presiona el botón de "
 "abajo."
 
 #: qml/PreferencesPage.qml:703
@@ -1680,7 +1683,7 @@ msgstr "Auto-zoom desactivado"
 
 #: qml/SharePage.qml:48
 msgid "SMS"
-msgstr "SMS"
+msgstr "S M S"
 
 #: qml/SharePage.qml:53
 msgid "Launching the Messages application"
@@ -1692,15 +1695,15 @@ msgstr "Mensaje copiado al portapapeles"
 
 #: qml/SharePage.qml:59
 msgid "Error sending message"
-msgstr "Error al enviar mensaje"
+msgstr "Error al enviar el mensaje"
 
 #: qml/SharePage.qml:66
 msgid "Email"
-msgstr "Correo"
+msgstr "Correo electrónico"
 
 #: qml/SharePage.qml:69
 msgid "Launching the Email application"
-msgstr "Abriendo la aplicación Correo"
+msgstr "Abriendo la aplicación Correo electrónico"
 
 #: qml/SharePage.qml:77
 msgid "Other"
@@ -1743,7 +1746,7 @@ msgstr "Región"
 
 #: routers/digitransit_settings.qml:32
 msgid "HSL"
-msgstr "HSL"
+msgstr "H S L"
 
 #: routers/digitransit_settings.qml:32
 msgid "Waltti"
@@ -2061,7 +2064,7 @@ msgstr "transporte público"
 
 #: standard input:10
 msgid "Routing along GPX track"
-msgstr "Rutas en trayectos GPX"
+msgstr "Rutas en trayectos G P X"
 
 #: standard input:11 standard input:13 standard input:15 standard input:17
 #: standard input:19 standard input:21
